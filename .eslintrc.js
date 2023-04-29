@@ -29,6 +29,7 @@ module.exports = {
     'linebreak-style': 0,
     'react/state-in-constructor': 0,
     'import/prefer-default-export': 0,
+    'import/no-extraneous-dependencies': 0,
     'max-len': [2, 250],
     'object-curly-newline': 0,
     'react/jsx-filename-extension': 0,
