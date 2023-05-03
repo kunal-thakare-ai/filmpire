@@ -17,7 +17,7 @@ function App() {
         <div className={classes.toolbar} />
         <Routes>
           <Route exact path="/" element={<Movies />} />
-          <Route exact path="/movie/:id" element={<MoviesInformation />} />
+          <Route exact path="/movies/:id" element={<MoviesInformation />} />
           <Route exact path="/Actors/:id" element={<Actors />} />
           <Route exact path="/profile/:id" element={<Profile />} />
         </Routes>
